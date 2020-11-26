@@ -42,12 +42,12 @@
     }
     .gridbox2{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-template-rows: 1fr 1fr 1fr;
         grid-gap: 20px;
         grid-template-areas: "card1 card2 card3"
-                             "card4 card5 card6"
-                             "card7 card8 ."
+        "card4 card5 card6"
+        "card7 card8 .";
     }
     .gridbox3{
         display: grid;
